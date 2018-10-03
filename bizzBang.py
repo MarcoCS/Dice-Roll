@@ -17,5 +17,8 @@ def bizzBang(limit):
                 print("good!")
             else:
                 return("Wrong! game over")
-        print(x)
+        if x == limit - 1:
+            return("You win!")
+        else:
+            print(x)
         
